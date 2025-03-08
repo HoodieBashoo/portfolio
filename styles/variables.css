@@ -8,4 +8,5 @@
   --category-size: 1.875rem; /*30px*/
   --body-size: 1.5rem; /*24px*/
   --detail-size: 1.125rem; /*18px*/
+  --default-project-view-section: "Screenshots";
 }

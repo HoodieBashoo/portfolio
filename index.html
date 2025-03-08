@@ -217,27 +217,34 @@
     <div id="js-project-view" class="project-view content-area" style="display: none;">
       <p id="js-project-view-title" class="centered-text content-area-title"></p>
       <span id="js-project-view-tagline" class="tagline centered-text"></span>
-      <div class="info-holder">
-        <div class="verbose-info">
-          <div class="screenshot-area">
-            <div class="button-wrapper" style="left: 20px;">
-              <button id="jimmy" class="screenshot-nav-button js-screenshot-nav-button" data-direction="Left">Left</button>
-            </div>
-            <div class="button-wrapper" style="right: 20px;">
-              <button class="screenshot-nav-button js-screenshot-nav-button" data-direction="Right">Right</button>
-            </div>
-            <div id="js-project-view-screenshots" class="screenshots-container">
-            </div>
-          </div>
-          <p id="js-project-view-description" class="project-description"></p>
+      <div style="display: flex; flex-direction: column;">
+        <div class="project-view-section-buttons">
+          <button class="js-pv-section-button pv-section-button" data-section-type="Screenshots">Screenshots</button>
+          <button class="js-pv-section-button pv-section-button" data-section-type="Description">Description</button>
+          <button class="js-pv-section-button pv-section-button" data-section-type="Info">Info</button>
         </div>
-        <div class="specific-info">
-          <div id="js-project-view-notables" class="notables">
+        <div class="info-holder">
+          <div class="verbose-info">
+            <div id="js-project-view-screenshot-area" class="screenshot-area">
+              <div class="button-wrapper" style="left: 20px;">
+                <button class="screenshot-nav-button js-screenshot-nav-button" data-direction="Left">Left</button>
+              </div>
+              <div class="button-wrapper" style="right: 20px;">
+                <button class="screenshot-nav-button js-screenshot-nav-button" data-direction="Right">Right</button>
+              </div>
+              <div id="js-project-view-screenshots" class="screenshots-container">
+              </div>
+            </div>
+            <p id="js-project-view-description" class="project-description"></p>
           </div>
-          <div class="extra-info-container">
-            <span id="js-project-view-jam" class="extra-info"></span>
-            <div id="js-extra-info-divider" class="info-divider"></div>
-            <span id="js-project-view-timespan" class="extra-info">Time Taken: 2 Years</span>
+          <div id="js-project-view-info" class="specific-info">
+            <div id="js-project-view-notables" class="notables">
+            </div>
+            <div class="extra-info-container">
+              <span id="js-project-view-jam" class="extra-info"></span>
+              <div id="js-extra-info-divider" class="info-divider"></div>
+              <span id="js-project-view-timespan" class="extra-info">Time Taken: 2 Years</span>
+            </div>
           </div>
         </div>
       </div>

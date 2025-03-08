@@ -116,6 +116,49 @@ function scrollToScreenshot(index) {
   document.getElementById('screenshot-' + index.toString()).scrollIntoView({behavior: 'smooth', inline: 'center'});
 }
 
+function enableSection(sectionType) {
+  const screenshots = document.getElementById('js-project-view-screenshot-area');
+  screenshots.style.display = 'none';
+  const description = document.getElementById('js-project-view-description');
+  description.style.display = 'none';
+  const info = document.getElementById('js-project-view-info');
+  info.style.display = 'none';
+
+  switch(sectionType) {
+    case 'Screenshots':
+      screenshots.style.display = 'initial';
+      break;
+    case 'Description':
+      description.style.display = 'initial';
+      break;
+    case 'Info':
+      info.style.display = 'flex';
+      break;
+    case 'All':
+      screenshots.style.display = 'initial';
+      description.style.display = 'initial';
+      info.style.display = 'flex';
+      break;
+  }
+}
+
+const widthQuery = window.matchMedia('(max-width: 800px)');
+widthQuery.addEventListener('change', query => {
+  if (query.matches) {
+    enableSection('Screenshots');
+  }
+  else {
+    enableSection('All');
+  }
+})
+
+document.querySelectorAll('.js-pv-section-button').forEach(button => {
+  button.addEventListener('click', () => {
+    const sectionType = button.dataset.sectionType;
+    enableSection(sectionType);
+  })
+});
+
 document.querySelectorAll('.js-screenshot-nav-button').forEach(button => {
   button.addEventListener('click', () => {
     const direction = button.dataset.direction;

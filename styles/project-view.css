@@ -128,9 +128,25 @@
   margin: 10px;
 }
 
-@media (max-width: 800px) or (max-height: 800px) {
+.pv-section-button {
+  display: none;
+}
+
+@media (max-width: 800px) {
   .info-holder {
     display: flex;
     flex-direction: column;
+  }
+
+  .pv-section-button {
+    display: inline;
+  }
+
+  .project-description {
+    display: none;
+  }
+
+  .specific-info {
+    display: none;
   }
 }
