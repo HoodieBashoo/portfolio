@@ -45,14 +45,12 @@ function alterProjectViewHTML(projectData) {
   `${projectData.timespan}`;
 
   const screenshotsContainer = document.getElementById('js-project-view-screenshots');
-  //screenshotsContainer.appendChild(generateBookendHTML());
   let currentId = 1;
   screenshotsContainer.appendChild(generateScreenshotHTML(currentId, projectData.thumbnail));
   projectData.screenshots.forEach(screenshot => {
     currentId++;
     screenshotsContainer.appendChild(generateScreenshotHTML(currentId, screenshot));
   });
-  //screenshotsContainer.appendChild(generateBookendHTML());
 
   const notableContainer = document.getElementById('js-project-view-notables');
   const engineNotables = [];
@@ -69,14 +67,6 @@ function alterProjectViewHTML(projectData) {
   customNotables.forEach(notable => {
     notableContainer.appendChild(generateNotableHTML(notable));
   });
-}
-
-function generateBookendHTML() {
-  const bookEnd = document.createElement('img');
-  bookEnd.setAttribute('src', 'images/Transparent.png');
-  bookEnd.setAttribute('class', 'screenshot-scroll-padding');
-
-  return bookEnd;
 }
 
 function generateScreenshotHTML(id, source) {
