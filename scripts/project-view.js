@@ -142,10 +142,27 @@ function enableSection(sectionType) {
   }
 }
 
+function updateButtonVisuals(sectionType) {
+  document.querySelectorAll('.js-pv-section-button').forEach(button => {
+    if (button.dataset.sectionType === sectionType) {
+      if (button.classList.contains('pv-section-button')) {
+        button.classList.replace('pv-section-button', 'pv-section-button-selected');
+      }
+    }
+    else {
+      if (button.classList.contains('pv-section-button-selected')) {
+        button.classList.replace('pv-section-button-selected', 'pv-section-button');
+      }
+    }
+  });
+}
+updateButtonVisuals('Screenshots');
+
 const widthQuery = window.matchMedia('(max-width: 800px)');
 widthQuery.addEventListener('change', query => {
   if (query.matches) {
     enableSection('Screenshots');
+    updateButtonVisuals('Screenshots');
   }
   else {
     enableSection('All');
@@ -156,6 +173,7 @@ document.querySelectorAll('.js-pv-section-button').forEach(button => {
   button.addEventListener('click', () => {
     const sectionType = button.dataset.sectionType;
     enableSection(sectionType);
+    updateButtonVisuals(sectionType);
   })
 });
 

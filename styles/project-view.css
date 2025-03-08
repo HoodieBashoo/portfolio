@@ -128,8 +128,22 @@
   margin: 10px;
 }
 
-.pv-section-button {
+.project-view-section-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.pv-section-button, .pv-section-button-selected {
   display: none;
+  border: 3px solid rgb(167, 22, 22);
+  border-radius: 15px 15px 0px 0px;
+  margin-right: -3px;
+  background-color: #f7e1be;
+}
+
+.pv-section-button-selected {
+  border-bottom: 0px;
+  background-color: #FFEAC8;
 }
 
 @media (max-width: 800px) {
@@ -138,15 +152,33 @@
     flex-direction: column;
   }
 
-  .pv-section-button {
+  .full-view-thumbnail {
+    margin: 1.25rem;
+  }
+
+  .pv-section-button, .pv-section-button-selected {
     display: inline;
   }
 
   .project-description {
     display: none;
+    margin: 1.25rem;
   }
 
   .specific-info {
+    background-color: #FFEAC8;
     display: none;
+  }
+
+  .notables {
+    margin: 1.25rem 1.25rem 0.625rem;
+  }
+
+  .extra-info {
+    margin: 0.625rem 1.25rem;
+  }
+
+  #js-project-view-timespan {
+    margin-bottom: 1.25rem;
   }
 }
