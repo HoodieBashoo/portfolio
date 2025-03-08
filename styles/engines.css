@@ -1,0 +1,45 @@
+.engine-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFEAC8;
+  padding: 1rem;
+}
+
+.engine-list {
+  display: flex;
+  gap: min(10vw, 100px);
+}
+
+.primary-logo:hover, .secondary-logo:hover {
+  cursor: pointer;
+  scale: 1.1;
+  border-radius: 25%;
+}
+
+.primary-logo, .secondary-logo {
+  transition-duration: var(--hover-transition-duration);
+}
+
+.primary-logo {
+  width: 225px;
+  height: 225px;
+  max-width: 25vw;
+  max-height: 25vw;
+}
+
+.secondary-logo {
+  width: 150px;
+  height: 150px;
+  max-width: 15vw;
+  max-height: 15vw;
+}
+
+#engine-name {
+  font-size: var(--category-size);
+  font-weight: 700;
+}
+
+#engine-description {
+  scroll-margin-bottom: 300px;
+}

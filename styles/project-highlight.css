@@ -1,0 +1,11 @@
+.project-highlight-area {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #FFEAC8;
+}
+
+.project-highlight-container {
+  max-width: 500px;
+  padding: 20px;
+}

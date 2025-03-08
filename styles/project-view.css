@@ -1,0 +1,136 @@
+.project-view {
+  position: fixed;
+  width: 95vw;
+  max-width: 1200px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+}
+
+.close-project-view {
+  width: 100%;
+  height: 3.125rem;
+  border: none;
+  background-color: rgb(94, 27, 27);
+  color: white;
+}
+
+.close-project-view:hover {
+  cursor: pointer;
+  background-color: rgb(136, 39, 39);
+}
+
+.tagline {
+  margin-top: -0.3125rem;
+  margin-bottom: 0.3125rem;
+  display: block;
+}
+
+.info-holder {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+}
+
+.verbose-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFEAC8;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.screenshot-area {
+  position: relative;
+  max-width: 100%;
+}
+
+.button-wrapper {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.screenshot-nav-button {
+  border: none;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  transition-duration: var(--hover-transition-duration);
+}
+
+.screenshot-nav-button:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.screenshots-container {
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+  max-width: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.screenshots-container::before,
+.screenshots-container::after {
+  content: "";
+  flex: 0 0 50%;
+}
+
+.screenshot-scroll-padding {
+  width: 17%;
+  color: rgba(0, 0, 0, 0);
+}
+
+.screenshots-container::-webkit-scrollbar {
+  display: none;
+}
+
+.full-view-thumbnail {
+  display: inline-block;
+  width: 25rem;
+  border-radius: 20px;
+  margin: 20px 20px 10px;
+}
+
+.specific-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ebd8b9;
+}
+
+.project-description {
+  margin: 0.625rem 1.25rem 1.25rem;
+}
+
+.notables {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 10px;
+}
+
+.extra-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.extra-info {
+  font-size: var(--detail-size);
+  margin: 10px;
+}
+
+@media (max-width: 800px) or (max-height: 800px) {
+  .info-holder {
+    display: flex;
+    flex-direction: column;
+  }
+}
