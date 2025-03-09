@@ -10,6 +10,17 @@
   right: 0;
 }
 
+.hamburger-menu {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  right: 15px;
+  top: 15px;
+  width: 4rem;
+  height: 4rem;
+  background-color: black;
+}
+
 .nav-button {
   background-color: var(--navbutton-background-color);
   border: 5px solid var(--navbutton-border-color);
@@ -22,4 +33,14 @@
 .nav-button:hover {
   cursor: pointer;
   background-color: var(--navbutton-background-color-hover);
+}
+
+@media (max-width: 725px) {
+  .navigation-bar {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: initial;
+  }
 }

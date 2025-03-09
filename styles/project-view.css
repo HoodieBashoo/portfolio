@@ -139,6 +139,7 @@
   border-radius: 15px 15px 0px 0px;
   margin-right: -3px;
   background-color: #f7e1be;
+  padding: 0.66rem 0.83rem;
 }
 
 .pv-section-button-selected {
@@ -146,7 +147,15 @@
   background-color: #FFEAC8;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 725px) {
+  #js-project-view-title {
+    margin-top: 0.66rem;
+  }
+
+  .project-view-section-buttons {
+    margin-top: 0.5rem;
+  }
+
   .info-holder {
     display: flex;
     flex-direction: column;
@@ -180,5 +189,9 @@
 
   #js-project-view-timespan {
     margin-bottom: 1.25rem;
+  }
+
+  .close-project-view {
+    height: 4rem;
   }
 }

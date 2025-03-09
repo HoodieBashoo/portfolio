@@ -275,7 +275,7 @@ export const projects = [
     ],
     extraNotables: [
     ]
-  }
+  },
 ]
 
 export function getNotableColours(type) {
