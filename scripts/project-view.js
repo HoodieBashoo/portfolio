@@ -43,6 +43,8 @@ function alterProjectViewHTML(projectData) {
   `${projectData.timespan}
   ${projectData.date}` :
   `${projectData.timespan}`;
+  document.getElementById('js-game-link').setAttribute('href', projectData.link);
+  document.getElementById('js-game-link-image').setAttribute('src', projectData.linkImage);
 
   const screenshotsContainer = document.getElementById('js-project-view-screenshots');
   let currentId = 1;

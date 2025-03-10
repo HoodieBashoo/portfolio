@@ -36,6 +36,8 @@ export const projects = [
     jam: '',
     timespan: 'In Progress: 1.5 Years',
     date: '',
+    link: 'https://hoodiebashoo.itch.io/sprouts',
+    linkImage: 'images/logos/Itch Logo.png',
     notables: [
       {
         text: 'NavMesh',
@@ -105,6 +107,8 @@ export const projects = [
     jam: 'Arcade Jam 2024',
     timespan: 'Time Taken: 1 Week',
     date: 'Submitted: June 2024',
+    link: 'https://hoodiebashoo.itch.io/pesticide',
+    linkImage: 'images/logos/Itch Logo.png',
     notables: [
       {
         text: 'Tilemaps',
@@ -142,6 +146,8 @@ export const projects = [
     jam: '',
     timespan: 'Time Taken: 1 Month',
     date: 'Finished: June 2021',
+    link: 'https://gamejolt.com/games/The-Dream/659954',
+    linkImage: 'images/logos/Game Jolt Logo.png',
     notables: [
       {
         text: 'Lightmapping',
@@ -167,6 +173,8 @@ export const projects = [
     jam: '',
     timespan: 'Time Taken: 2 Weeks',
     date: 'Dropped: December 2021',
+    link: 'https://gamejolt.com/games/pickle-souls/842866',
+    linkImage: 'images/logos/Game Jolt Logo.png',
     notables: [
       {
         text: 'Input System',
@@ -192,6 +200,8 @@ export const projects = [
     jam: 'Global Game Jam 2025',
     timespan: 'Time Taken: 2 Days',
     date: 'Submitted: January 2025',
+    link: 'https://hoodiebashoo.itch.io/ego-arena',
+    linkImage: 'images/logos/Itch Logo.png',
     notables: [
       {
         text: 'Turn System',
@@ -221,6 +231,8 @@ export const projects = [
     jam: 'Alberta Game Jam 2023',
     timespan: 'Time Taken: 2 Days',
     date: 'Submitted: August 2023',
+    link: 'https://hoodiebashoo.itch.io/hot-wired',
+    linkImage: 'images/logos/Itch Logo.png',
     notables: [
       {
         text: 'Rail Movement',
@@ -246,6 +258,8 @@ export const projects = [
     jam: '',
     timespan: 'Time Taken: 3 Weeks',
     date: 'Dropped: May 2022',
+    link: 'https://gamejolt.com/games/piple/842937',
+    linkImage: 'images/logos/Game Jolt Logo.png',
     notables: [
       {
         text: 'Grid System',
@@ -271,6 +285,8 @@ export const projects = [
     jam: 'Global Game Jam 2024',
     timespan: 'Time Taken: 2 Days',
     date: 'Submitted: January 2024',
+    link: 'https://turtleholder.itch.io/tickle-monster',
+    linkImage: 'images/logos/Itch Logo.png',
     notables: [
     ],
     extraNotables: [
