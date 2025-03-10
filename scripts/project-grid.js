@@ -67,20 +67,20 @@ export function generateProjectHTML(projectData) {
 export function generateNotableHTML(notableData) {
   const colours = getNotableColours(notableData.type)
 
-    const notable = document.createElement('div');
-    notable.setAttribute('class', 'notable');
-    notable.style.backgroundColor = colours.bgCol;
+  const notable = document.createElement('div');
+  notable.setAttribute('class', 'notable');
+  notable.style.backgroundColor = colours.bgCol;
 
-    const distinguisher = document.createElement('div');
-    distinguisher.setAttribute('class', 'distinguisher');
-    distinguisher.style.backgroundColor = colours.distCol;
-    notable.appendChild(distinguisher);
+  const distinguisher = document.createElement('div');
+  distinguisher.setAttribute('class', 'distinguisher');
+  distinguisher.style.backgroundColor = colours.distCol;
+  notable.appendChild(distinguisher);
 
-    const notableName = document.createElement('span');
-    notableName.innerText = notableData.text;
-    notableName.setAttribute('class', 'notable-name');
-    notableName.style.color = colours.textCol;
-    notable.appendChild(notableName);
+  const notableName = document.createElement('span');
+  notableName.innerText = notableData.text;
+  notableName.setAttribute('class', 'notable-name');
+  notableName.style.color = colours.textCol;
+  notable.appendChild(notableName);
 
   return notable;
 }

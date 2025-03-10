@@ -23,23 +23,28 @@
   <body>
     <div class="navigation-bar">
       <div class="nav-button-container">
-        <button id="overview-button" class="nav-button">Overview</button>
+        <button class="nav-button js-nav-button" data-area="Overview">Overview</button>
       </div>
       <div class="nav-button-container">
-        <button id="engines-button" class="nav-button">Engines</button>
+        <button class="nav-button js-nav-button" data-area="Engines">Engines</button>
       </div>
       <div class="nav-button-container">
-        <button id="resume-button" class="nav-button">Resumé</button>
+        <button class="nav-button js-nav-button" data-area="Resume">Resumé</button>
       </div>
       <div class="nav-button-container">
-        <button id="contact-button" class="nav-button">Contact</button>
+        <button class="nav-button js-nav-button" data-area="Contact">Contact</button>
       </div>
     </div>
 
+    <button class="hamburger-button"></button>
     <div class="hamburger-menu">
-
+      <button class="mobile-nav-button js-nav-button" data-area="Overview">Overview</button>
+      <button class="mobile-nav-button js-nav-button" data-area="Engines">Engines</button>
+      <button class="mobile-nav-button js-nav-button" data-area="Resume">Resumé</button>
+      <button class="mobile-nav-button js-nav-button" data-area="Contact">Contact</button>
     </div>
 
+    <!-- Anchor point for overview button -->
     <div id="top-of-page"></div>
 
     <div class="main-content">
