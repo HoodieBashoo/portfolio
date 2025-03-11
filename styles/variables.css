@@ -1,12 +1,12 @@
 :root {
-  --main-font: "Balsamiq Sans";
+  --main-font: "Inclusive Sans";
   --hover-transition-duration: 0.1s;
   --header-size: 2.25rem; /*36px*/
   --category-size: 1.875rem; /*30px*/
   --body-size: 1.5rem; /*24px*/
   --detail-size: 1.125rem; /*18px*/
-  --primary-transparency: rgba(255, 255, 255, 0.6);
-  --secondary-transparency: rgba(255, 255, 255, 0.25);
-  --primary-translucence: 5px;
+  --primary-transparency: 0.5;
+  --secondary-transparency: 0.2;
+  --primary-translucence: 8px;
   --default-project-view-section: "Screenshots";
 }

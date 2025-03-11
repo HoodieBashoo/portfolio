@@ -69,6 +69,7 @@
 
 .notable-name {
   font-size: var(--detail-size);
+  font-weight: 500
 }
 
 .distinguisher {
