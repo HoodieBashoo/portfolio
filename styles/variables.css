@@ -1,12 +1,12 @@
 :root {
-  --navbutton-border-color: black;
-  --navbutton-background-color: white;
-  --navbutton-background-color-hover: grey;
   --main-font: "Balsamiq Sans";
   --hover-transition-duration: 0.1s;
   --header-size: 2.25rem; /*36px*/
   --category-size: 1.875rem; /*30px*/
   --body-size: 1.5rem; /*24px*/
   --detail-size: 1.125rem; /*18px*/
+  --primary-transparency: rgba(255, 255, 255, 0.6);
+  --secondary-transparency: rgba(255, 255, 255, 0.25);
+  --primary-translucence: 5px;
   --default-project-view-section: "Screenshots";
 }
