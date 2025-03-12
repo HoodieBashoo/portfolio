@@ -24,6 +24,7 @@ p {
   position: fixed;
   inset: 0;
   background-image: url("../images/page-style/Leaf Background.png");/*, radial-gradient(circle at bottom, #b7d575 25%, #29764a 50%, #010812 100%);*/
+  filter: opacity(0.1);
 }
 
 .main-content {
@@ -47,9 +48,9 @@ p {
 
 .content-area {
   border-radius: 40px 40px;
-  border: 3px solid rgba(255, 255, 255, 0.2);
+  border: 3px solid rgb(193, 219, 152);
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(215, 243, 169, var(--primary-transparency));
   backdrop-filter: blur(var(--primary-translucence));
   width: 95vw;
   max-width: 1200px;

@@ -5,8 +5,9 @@
   --category-size: 1.875rem; /*30px*/
   --body-size: 1.5rem; /*24px*/
   --detail-size: 1.125rem; /*18px*/
-  --primary-transparency: 0.5;
+  --primary-transparency: 0.8;
   --secondary-transparency: 0.2;
-  --primary-translucence: 8px;
+  --primary-translucence: 2px;
+  --secondary-translucence: 5px;
   --default-project-view-section: "Screenshots";
 }
