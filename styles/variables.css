@@ -5,6 +5,8 @@
   --category-size: 1.875rem; /*30px*/
   --body-size: 1.5rem; /*24px*/
   --detail-size: 1.125rem; /*18px*/
+  --primary-section-color: 215, 243, 169;
+  --secondary-section-color: 227, 235, 216;
   --primary-transparency: 0.8;
   --secondary-transparency: 0.2;
   --primary-translucence: 2px;

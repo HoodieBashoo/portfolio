@@ -50,7 +50,7 @@ p {
   border-radius: 40px 40px;
   border: 3px solid rgb(193, 219, 152);
   overflow: hidden;
-  background-color: rgba(215, 243, 169, var(--primary-transparency));
+  background-color: rgba(var(--primary-section-color), var(--primary-transparency));
   backdrop-filter: blur(var(--primary-translucence));
   width: 95vw;
   max-width: 1200px;
