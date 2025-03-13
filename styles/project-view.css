@@ -5,6 +5,7 @@
   top: 10%;
   left: 50%;
   transform: translate(-50%, -0%);
+  backdrop-filter: blur(var(--secondary-translucence));
 }
 
 .close-project-view {
@@ -36,6 +37,7 @@
   flex-direction: column;
   align-items: center;
   background-color: rgba(var(--secondary-section-color), var(--secondary-transparency));
+  backdrop-filter: blur(var(--secondary-translucence));
   max-width: 100%;
   overflow: hidden;
 }
@@ -105,6 +107,7 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: rgba(var(--primary-section-color), var(--primary-transparency));
+  backdrop-filter: blur(var(--secondary-translucence));
 }
 
 .project-description {
