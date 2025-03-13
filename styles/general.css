@@ -1,13 +1,17 @@
 html {
   font-size: 12px;
   text-size-adjust: none;
+  /* TODO: MOVE THESE TO BETTER PLACES*/
   font-weight: 500;
+  color: rgb(24, 37, 23);
 }
 
 body {
   /*background-image: linear-gradient(#99fa99, #90e3cf); green blue*/
-  /*background-image: linear-gradient(#80e068, #b8e95d); green yellow*/
-  background-image: radial-gradient(circle, #b7d575 15%, #29764a 50%, #010812 100%);
+  background-image: radial-gradient(circle, #a6c26b 15%, #29764a 50%, #010812 100%);
+  /*#b7d575 brightest */
+  /*#a6c26b middle*/
+  /*#9fb966 darkest*/
   padding-bottom: 50px;
 }
 

@@ -1,13 +1,13 @@
 // Colours for notable tags
-const engineSpecificBg = 'lightgreen';
-const engineSpecificDist = 'green';
-const engineSpecificText = 'black';
-const customBg = 'lightcoral';
-const customDist = 'red';
-const customText = 'black';
-const conceptBg = 'lightblue';
-const conceptDist = 'blue';
-const conceptText = 'black';
+const engineSpecificBg = '#90DE5C'; // darken this
+const engineSpecificDist = '#0C3D35';
+const engineSpecificText = '#0C3D35';
+const conceptBg = '#34935D';
+const conceptDist = '#90DE5C'; // completely change these (not too much though, the gradient of them all is nice)
+const conceptText = '#90DE5C';
+const customBg = '#0C3D35';
+const customDist = '#3CAA6C';
+const customText = '#3CAA6C'; // lighten this
 //
 
 export function getProject(title) {
