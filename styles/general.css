@@ -1,9 +1,6 @@
 html {
   font-size: 12px;
   text-size-adjust: none;
-  /* TODO: MOVE THESE TO BETTER PLACES*/
-  font-weight: 500;
-  color: rgb(24, 37, 23);
 }
 
 body {
@@ -15,6 +12,8 @@ body {
 p, li, button, span {
   font-size: var(--body-size);
   font-family: var(--main-font);
+  font-weight: 500;
+  color: rgb(24, 37, 23);
 }
 
 p {
@@ -48,7 +47,7 @@ p {
 }
 
 .content-area {
-  border-radius: 40px 40px;
+  border-radius: 20px 40px;
   border: 0.1875rem solid rgb(193, 219, 152);
   overflow: hidden;
   background-color: rgba(var(--primary-section-color), var(--primary-transparency));

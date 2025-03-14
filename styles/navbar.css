@@ -10,18 +10,21 @@
   right: 0;
 }
 
+.nav-button, .hamburger-button, .mobile-nav-button {
+  background-color: rgba(215, 243, 169, 0.8);
+  backdrop-filter: blur(var(--secondary-translucence));
+  border: 0.1875rem solid #0C3D35;
+  border-radius: 0.5rem 1.25rem;
+}
+
 .nav-button {
-  background-color: white;
-  border: 5px solid black;
-  border-radius: 8px 20px;
   width: 150px;
   height: 50px;
   margin: 0px;
-  font-weight: 500;
 }
 .nav-button:hover {
   cursor: pointer;
-  background-color: grey;
+  background-color: rgba(127, 145, 98, 0.8);
 }
 
 .hamburger-button {
@@ -32,6 +35,9 @@
   display: none;
   width: 4rem;
   height: 4rem;
+}
+.hamburger-button:active {
+  background-color: rgba(127, 145, 98, 0.8);
 }
 
 .hamburger-menu {
@@ -50,7 +56,12 @@
 }
 
 .mobile-nav-button {
+  border-radius: 0.5rem 0rem 0rem 1.25rem;
+  border-right: none;
   height: 4rem;
+}
+.mobile-nav-button:active {
+  background-color: rgba(127, 145, 98, 0.8);
 }
 
 @media (max-width: 725px) {
