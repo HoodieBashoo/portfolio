@@ -91,7 +91,7 @@ p {
   bottom: 0;
   right: 50%;
   transform: translateX(50%);
-  height: 10rem;
+  height: 12rem;
   z-index: -1; 
   margin-bottom: -8px;
   filter: opacity(0.25);

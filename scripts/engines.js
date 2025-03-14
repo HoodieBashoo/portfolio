@@ -3,12 +3,26 @@ import {clearProjects, displayProjects} from './project-grid.js'
 document.querySelectorAll('.js-clickable-logo').forEach(logo => {
   logo.addEventListener('click', () => {
     const updateSuccess = updateCurrentEngine(logo.dataset.engineType);
-    updateSuccess ? displayProjects(logo.dataset.engineType) : displayProjects('');
+    let projectsDisplayed;
+    if (updateSuccess) {
+      projectsDisplayed = displayProjects(logo.dataset.engineType) 
+    }
+    else {
+      projectsDisplayed = displayProjects('');
+    }
 
-    document.getElementById('engine-description').scrollIntoView({
-      behavior: 'smooth',
-      block: 'center'
-    });
+    if (projectsDisplayed > 3) {
+      document.getElementById('engine-description').scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+      });
+    }
+    else {
+      document.getElementById('engines').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
   })
 })
 
