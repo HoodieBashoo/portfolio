@@ -1,3 +1,14 @@
+#contact {
+  margin-bottom: 32rem;
+  scroll-margin-bottom: 50px;
+}
+
 .contact-info {
   text-align: center;
+}
+
+@media (max-width: 725px) { 
+  #contact {
+    scroll-margin-bottom: 20px;
+  }
 }

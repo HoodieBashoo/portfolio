@@ -47,7 +47,7 @@ document.querySelectorAll('.js-nav-button').forEach(button => {
       case "Contact":
         document.getElementById('contact').scrollIntoView({
           behavior: 'smooth',
-          block: 'start'
+          block: 'end'
         });
         break;
     }
