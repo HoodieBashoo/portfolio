@@ -9,9 +9,6 @@ html {
 body {
   /*background-image: linear-gradient(#99fa99, #90e3cf); green blue*/
   background-image: radial-gradient(circle, #a6c26b 15%, #29764a 50%, #010812 100%);
-  /*#b7d575 brightest */
-  /*#a6c26b middle*/
-  /*#9fb966 darkest*/
   padding-bottom: 50px;
 }
 
@@ -52,7 +49,7 @@ p {
 
 .content-area {
   border-radius: 40px 40px;
-  border: 3px solid rgb(193, 219, 152);
+  border: 0.1875rem solid rgb(193, 219, 152);
   overflow: hidden;
   background-color: rgba(var(--primary-section-color), var(--primary-transparency));
   backdrop-filter: blur(var(--primary-translucence));

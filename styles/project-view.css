@@ -167,7 +167,7 @@
 
 .pv-section-button, .pv-section-button-selected {
   display: none;
-  border: 3px solid rgb(169, 192, 133);
+  border: 0.1875rem solid rgb(169, 192, 133);
   border-radius: 15px 15px 0px 0px;
   margin-right: -3px;
   background-color: rgba(194, 224, 155, 0.5);
@@ -181,6 +181,10 @@
 }
 
 @media (max-width: 725px) {
+  .project-view {
+    top: 12%;
+  }
+
   #js-project-view-title {
     margin-top: 0.66rem;
   }
