@@ -1,0 +1,28 @@
+.crucial-info-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.tag-info {
+  background-color: rgba(var(--secondary-section-color), var(--secondary-transparency));
+  padding: 0.5rem 0rem 0.9375rem;
+}
+
+#crucial-info .project-notables {
+  justify-content: center;
+  width: 50%;
+  margin-top: 0;
+}
+
+.legend-container {
+  display: flex;
+  justify-content: center;
+}
+
+.legend-title {
+  margin-top: 0;
+  font-size: var(--category-size);
+}

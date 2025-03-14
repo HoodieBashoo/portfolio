@@ -71,7 +71,7 @@ p {
   margin: 5px 10px;
 }
 
-.inline-logo, .inline-logo-backgrounded {
+.inline-logo, .inline-logo-backgrounded, .inline-logo-title {
   width: 1.5625rem;
   height: 1.5625rem;
   margin: 0px 1px;
@@ -80,6 +80,11 @@ p {
 .inline-logo-backgrounded {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 25%;
+}
+
+.inline-logo-title {
+  width: 2.375rem;
+  height: 2.375rem;
 }
 
 .centered-text {

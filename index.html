@@ -11,6 +11,7 @@
     <!---->
 
     <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/crucial-info.css">
     <link rel="stylesheet" href="styles/variables.css">
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/personal-blurb.css">
@@ -184,8 +185,19 @@
       </div>
       <!--/Overview-->
 
-      <div class="content-area">
-        <p class="centered-text content-area-title">! Select any project for more info !</p>
+      <div id="crucial-info" class="content-area">
+        <p class="centered-text content-area-title crucial-info-title">
+          <img src="images/Warning.png" class="inline-logo-title">
+          &nbsp;Select any project for more info&nbsp;
+          <img src="images/Warning.png" class="inline-logo-title">
+        </p>
+        <div class="tag-info">
+          <p class="legend-title centered-text">Legend:</p>
+          <div class="legend-container">
+            <div id="legend" class="project-notables">  
+        </div>
+        </div>
+        </div>
       </div>
 
       <!--Project Highlight-->
@@ -270,9 +282,9 @@
       <button id="js-close-project-view" class="close-project-view">Close</button>
     </div>
 
-    
     <img src="images/Sneaky.png" class="sneaky">;
 
+    <script type="module" src="scripts/general.js"></script>
     <script type="module" src="scripts/navbar.js"></script>
     <script type="module" src="scripts/project-highlight.js"></script>
     <script type="module" src="scripts/engines.js"></script>
