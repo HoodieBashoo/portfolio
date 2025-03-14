@@ -53,14 +53,20 @@
   height: 5rem;
   top: 50%;
   transform: translate(0%, -50%);
+  /*background-color: rgba(0, 0, 0, 0.8)*/
 }
 
 .screenshot-nav-button {
   border: none;
-  border-radius: 50%;
   width: 5rem;
   height: 5rem;
-  background-color: rgba(0, 0, 0, 0.75);
+  padding: 0;
+  border-radius: 35%;
+  background-color: rgba(var(--primary-section-color), 0.9);
+  background-image: url("../images/page-style/Leaf Button.png");
+  background-size: cover;
+  /*filter: invert(92%) sepia(7%) saturate(1394%) hue-rotate(33deg) brightness(101%) contrast(96%) opacity(0.9);
+  filter: invert(10%) sepia(54%) saturate(679%) hue-rotate(120deg) brightness(91%) contrast(94%);*/
   color: white;
   transition-duration: var(--hover-transition-duration);
 }
