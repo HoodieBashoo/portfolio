@@ -31,7 +31,7 @@ export const projects = [
       'images/thumbnails/Sprouts Thumbnail.png',
     ],
     description: `Sprouts is my first full-scale project, and is planned to be about 7-10 hours. You cook food for the creatures growing in your garden, and in return they'll produce more ingredients for you.
-    My proudest accomplishment would have to be the link between the recipe navigation system and the minigame system. The algorithm verifies each step of the process, and will consume ingredients as you progress through the minigames.`,
+    My proudest accomplishment would have to be the link between the recipe system and the minigame system. The algorithm verifies each step of the process, and will consume ingredients as you progress through the minigames.`,
     engineType: 'Unity',
     jam: '',
     timespan: 'In Progress: 1.5 Years',

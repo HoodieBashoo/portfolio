@@ -15,7 +15,7 @@ export function displayProjects(engineType) {
   projectGrid.style.display = 'grid';
 
   projects.forEach(projectData => {
-    if (engineType !== projectData.engineType) {
+    if (engineType !== '' && engineType !== projectData.engineType) {
       return;
     }
 
@@ -23,6 +23,7 @@ export function displayProjects(engineType) {
     projectGrid.appendChild(project);
   });
 }
+displayProjects('');
 
 export function generateProjectHTML(projectData) {
   const project = document.createElement('div');
