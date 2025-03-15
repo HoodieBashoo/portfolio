@@ -1,293 +1,313 @@
 <!DOCTYPE html>
 
 <html>
-  <header>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!--fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Fredoka:wght@300..700&family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manjari:wght@100;400;700&display=swap" rel="stylesheet">
-    <!---->
+<header>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/crucial-info.css">
-    <link rel="stylesheet" href="styles/variables.css">
-    <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="stylesheet" href="styles/personal-blurb.css">
-    <link rel="stylesheet" href="styles/project-highlight.css">
-    <link rel="stylesheet" href="styles/engines.css">
-    <link rel="stylesheet" href="styles/project-grid.css">
-    <link rel="stylesheet" href="styles/project-view.css">
-    <link rel="stylesheet" href="styles/contact.css">
-  </header>
-  <body>
-    <div class="leaf-underlay"></div>
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Fredoka:wght@300..700&family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manjari:wght@100;400;700&display=swap"
+    rel="stylesheet">
+  <!---->
 
-    <div class="navigation-bar">
-      <div class="nav-button-container">
-        <button class="nav-button js-nav-button" data-area="Overview">Overview</button>
-      </div>
-      <div class="nav-button-container">
-        <button class="nav-button js-nav-button" data-area="Engines">Projects</button>
-      </div>
-      <div class="nav-button-container">
-        <button class="nav-button js-nav-button" data-area="Resume">Resumé</button>
-      </div>
-      <div class="nav-button-container">
-        <button class="nav-button js-nav-button" data-area="Contact">Contact</button>
-      </div>
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/crucial-info.css">
+  <link rel="stylesheet" href="styles/variables.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/personal-blurb.css">
+  <link rel="stylesheet" href="styles/project-highlight.css">
+  <link rel="stylesheet" href="styles/engines.css">
+  <link rel="stylesheet" href="styles/project-grid.css">
+  <link rel="stylesheet" href="styles/project-view.css">
+  <link rel="stylesheet" href="styles/contact.css">
+</header>
+
+<body>
+  <div class="leaf-underlay"></div>
+
+  <div class="navigation-bar">
+    <div class="nav-button-container">
+      <button class="nav-button js-nav-button" data-area="Overview">Overview</button>
     </div>
-
-    <button class="hamburger-button"></button>
-    <div class="hamburger-menu">
-      <button class="mobile-nav-button js-nav-button" data-area="Overview">Overview</button>
-      <button class="mobile-nav-button js-nav-button" data-area="Engines">Projects</button>
-      <button class="mobile-nav-button js-nav-button" data-area="Resume">Resumé</button>
-      <button class="mobile-nav-button js-nav-button" data-area="Contact">Contact</button>
+    <div class="nav-button-container">
+      <button class="nav-button js-nav-button" data-area="Engines">Projects</button>
     </div>
+    <div class="nav-button-container">
+      <button class="nav-button js-nav-button" data-area="Resume">Resumé</button>
+    </div>
+    <div class="nav-button-container">
+      <button class="nav-button js-nav-button" data-area="Contact">Contact</button>
+    </div>
+  </div>
 
-    <!-- Anchor point for overview button -->
-    <div id="top-of-page"></div>
+  <button class="hamburger-button"></button>
+  <div class="hamburger-menu">
+    <button class="mobile-nav-button js-nav-button" data-area="Overview">Overview</button>
+    <button class="mobile-nav-button js-nav-button" data-area="Engines">Projects</button>
+    <button class="mobile-nav-button js-nav-button" data-area="Resume">Resumé</button>
+    <button class="mobile-nav-button js-nav-button" data-area="Contact">Contact</button>
+  </div>
 
-    <div class="main-content">
-      <!--Overview-->
-      <div id="overview" class="content-area">
-        <p class="centered-text content-area-title">Overview</p>
-        <div class="personal-blurb">
-          <div class="blurb-text">
-            <p>Game Developer and 3D artist inspired by many sources such as the layered stories of Xenoblade, the tight mechanics of Bloodborne, and the dungeons/systems of King's Field and Daggerfall. With about 4 years of experience under my belt, I strive to create games that inspire others in the same way.
-              <br><br>I aim for a deeper understanding of all systems relating to games, and a huge goal of mine is to create my own engine someday. In the meantime, I am working on a full-scale project doubling as a programming testground to experiment in and gain as much experience as possible.</p>
-          </div>
-          <img src="images/Lamb.jpg" class="blurb-picture">
+  <!-- Anchor point for overview button -->
+  <div id="top-of-page"></div>
+
+  <div class="main-content">
+    <!--Overview-->
+    <div id="overview" class="content-area">
+      <p class="centered-text content-area-title">Overview</p>
+      <div class="personal-blurb">
+        <div class="blurb-text">
+          <p>Game Developer and 3D artist inspired by sources such as the layered stories of Xenoblade, the tight
+            mechanics of Bloodborne, and the dungeons/systems of King's Field and Daggerfall. With about 4 years of
+            experience under my belt, I strive to create games that inspire others in the same way.
+            <br><br>I aim for a deeper understanding of all systems relating to games, and a huge goal of mine is to
+            create my own engine someday. In the meantime, I am working on a full-scale project doubling as a
+            programming testground to experiment in and gain as much experience as possible.
+          </p>
         </div>
-        <!--Languages, Tools, Version control-->
-        <div class="blurb-points">
-          <div class="blurb-point-category">
-            <p class="blurb-point-category-name"><u>Languages</u></p>
-            <ul class="blurb-point-list">
-              <li>
-                  <span class="blurb-point">
-                    C# with Unity&nbsp;
-                    <img src="images/logos/CSharp Logo.png" class="inline-logo">
-                    <img src="images/logos/Unity Logo.png" class="inline-logo">
-                  </span>
-              </li>
-              <!--<li>
+        <img src="images/Lamb.jpg" class="blurb-picture">
+      </div>
+      <!--Languages, Tools, Version control-->
+      <div class="blurb-points">
+        <div class="blurb-point-category">
+          <p class="blurb-point-category-name"><u>Languages</u></p>
+          <ul class="blurb-point-list">
+            <li>
+              <span class="blurb-point">
+                C# with Unity&nbsp;
+                <img src="images/logos/CSharp Logo.png" class="inline-logo">
+                <img src="images/logos/Unity Logo.png" class="inline-logo">
+              </span>
+            </li>
+            <!--<li>
                 <span class="blurb-point">
                   C++ with Unreal Engine&nbsp;
                   <img src="images/logos/CPlusPlus Logo.png" class="inline-logo">
                   <img src="images/logos/Unreal Logo.png" class="inline-logo">
                 </span>
               </li>-->
-              <li>
-                <span class="blurb-point">
-                  GDScript with Godot&nbsp; 
-                  <img src="images/logos/Godot Logo.png" class="inline-logo">
-                </span>
-              </li>
-              <li>
-                <span class="blurb-point">
-                  Java&nbsp; 
-                  <img src="images/logos/Java Logo.png" class="inline-logo-backgrounded">
-                </span>
-              </li>
-              <li>
-                <span class="blurb-point">
-                  Python&nbsp; 
-                  <img src="images/logos/Python Logo.png" class="inline-logo">
-                </span>
-              </li>
-              <!--<li>
+            <li>
+              <span class="blurb-point">
+                GDScript with Godot&nbsp;
+                <img src="images/logos/Godot Logo.png" class="inline-logo">
+              </span>
+            </li>
+            <li>
+              <span class="blurb-point">
+                Java&nbsp;
+                <img src="images/logos/Java Logo.png" class="inline-logo-backgrounded">
+              </span>
+            </li>
+            <li>
+              <span class="blurb-point">
+                Python&nbsp;
+                <img src="images/logos/Python Logo.png" class="inline-logo">
+              </span>
+            </li>
+            <!--<li>
                 <span class="blurb-point">
                   Lua&nbsp; 
                   <img src="images/logos/Lua Logo.png" class="inline-logo">
                 </span>
               </li>-->
-              <li>
-                <span class="blurb-point">
-                  JavaScript&nbsp; 
-                  <img src="images/logos/JavaScript Logo.png" class="inline-logo">
-                </span>
-              </li>
-              <li>
-                <span class="blurb-point">
-                  HTML/CSS&nbsp; 
-                  <img src="images/logos/HTML Logo.png" class="inline-logo">
-                  <img src="images/logos/CSS Logo.png" class="inline-logo">
-                </span>
-              </li>
-            </ul>
-          </div>
-          <div class="blurb-point-category">
-            <p class="blurb-point-category-name"><u>Tools</u></p>
-            <ul class="blurb-point-list">
-              <li>
-                  <span class="blurb-point">
-                    Visual Studio/Code&nbsp;
-                    <img src="images/logos/Visual Studio Logo.png" class="inline-logo">
-                    <img src="images/logos/Visual Studio Code Logo.png" class="inline-logo">
-                  </span>
-              </li>
-              <li>
-                <span class="blurb-point">
-                  PyCharm&nbsp;
-                  <img src="images/logos/PyCharm Logo.png" class="inline-logo">
-                </span>
-              </li>
-              <li>
-                <span class="blurb-point">
-                  jGrasp&nbsp;
-                  <img src="images/logos/jGrasp Logo.png" class="inline-logo">
-                </span>
-              </li>
-              <li>
-                <span class="blurb-point">
-                  Blender&nbsp;
-                  <img src="images/logos/Blender Logo.png" class="inline-logo">
-                </span>
-              </li>
-              <li>
-                <span class="blurb-point">
-                  Trello&nbsp;
-                  <img src="images/logos/Trello Logo.png" class="inline-logo">
-                </span>
-              </li>
-            </ul>
-          </div>
-          <div class="blurb-point-category">
-            <p class="blurb-point-category-name"><u>Version Control</u></p>
-            <ul class="blurb-point-list">
-              <li>
-                  <span class="blurb-point">
-                    Git - CLI, SourceTree&nbsp;
-                    <img src="images/logos/Git Logo.png" class="inline-logo">
-                    <img src="images/logos/Sourcetree Logo.png" class="inline-logo">
-                  </span>
-              </li>
-              <li>
-                <span class="blurb-point">
-                  Github&nbsp;
-                  <img src="images/logos/Github Logo.png" class="inline-logo">
-                </span>
-              </li>
-              <li>
-                <span class="blurb-point">
-                  PlasticSCM/UVC&nbsp;
-                  <img src="images/logos/PlasticSCM Logo.png" class="inline-logo">
-                  <img src="images/logos/Unity DevOps Logo.png" class="inline-logo">
-                </span>
-              </li>
-            </ul>
-          </div>
+            <li>
+              <span class="blurb-point">
+                JavaScript&nbsp;
+                <img src="images/logos/JavaScript Logo.png" class="inline-logo">
+              </span>
+            </li>
+            <li>
+              <span class="blurb-point">
+                HTML/CSS&nbsp;
+                <img src="images/logos/HTML Logo.png" class="inline-logo">
+                <img src="images/logos/CSS Logo.png" class="inline-logo">
+              </span>
+            </li>
+          </ul>
         </div>
-        <!--/Languages, Tools, Version control-->
+        <div class="blurb-point-category">
+          <p class="blurb-point-category-name"><u>Tools</u></p>
+          <ul class="blurb-point-list">
+            <li>
+              <span class="blurb-point">
+                Visual Studio/Code&nbsp;
+                <img src="images/logos/Visual Studio Logo.png" class="inline-logo">
+                <img src="images/logos/Visual Studio Code Logo.png" class="inline-logo">
+              </span>
+            </li>
+            <li>
+              <span class="blurb-point">
+                PyCharm&nbsp;
+                <img src="images/logos/PyCharm Logo.png" class="inline-logo">
+              </span>
+            </li>
+            <li>
+              <span class="blurb-point">
+                jGrasp&nbsp;
+                <img src="images/logos/jGrasp Logo.png" class="inline-logo">
+              </span>
+            </li>
+            <li>
+              <span class="blurb-point">
+                Blender&nbsp;
+                <img src="images/logos/Blender Logo.png" class="inline-logo">
+              </span>
+            </li>
+            <li>
+              <span class="blurb-point">
+                Trello&nbsp;
+                <img src="images/logos/Trello Logo.png" class="inline-logo">
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div class="blurb-point-category">
+          <p class="blurb-point-category-name"><u>Version Control</u></p>
+          <ul class="blurb-point-list">
+            <li>
+              <span class="blurb-point">
+                Git - CLI, SourceTree&nbsp;
+                <img src="images/logos/Git Logo.png" class="inline-logo">
+                <img src="images/logos/Sourcetree Logo.png" class="inline-logo">
+              </span>
+            </li>
+            <li>
+              <span class="blurb-point">
+                Github&nbsp;
+                <img src="images/logos/Github Logo.png" class="inline-logo">
+              </span>
+            </li>
+            <li>
+              <span class="blurb-point">
+                PlasticSCM/UVC&nbsp;
+                <img src="images/logos/PlasticSCM Logo.png" class="inline-logo">
+                <img src="images/logos/Unity DevOps Logo.png" class="inline-logo">
+              </span>
+            </li>
+          </ul>
+        </div>
       </div>
-      <!--/Overview-->
+      <!--/Languages, Tools, Version control-->
+    </div>
+    <!--/Overview-->
 
-      <div id="crucial-info" class="content-area">
-        <p class="centered-text content-area-title crucial-info-title">
-          <img src="images/Warning.png" class="inline-logo-title">
-          &nbsp;Select any project for more info&nbsp;
-          <img src="images/Warning.png" class="inline-logo-title">
-        </p>
-        <div class="tag-info">
-          <p class="legend-title centered-text">Legend:</p>
-          <div class="legend-container">
-            <div id="legend" class="project-notables">  
-        </div>
-        </div>
-        </div>
-      </div>
-
-      <!--Project Highlight-->
-      <div class="content-area">
-        <p class="centered-text content-area-title">Project Highlight</p>
-        <div class="project-highlight-area">
-          <div id="js-project-highlight" class="project-highlight-container">
-
+    <div id="crucial-info" class="content-area">
+      <p class="centered-text content-area-title crucial-info-title">
+        <img src="images/Warning.png" class="inline-logo-title">
+        &nbsp;Select any project for more info&nbsp;
+        <img src="images/Warning.png" class="inline-logo-title">
+      </p>
+      <div class="tag-info">
+        <p class="legend-title centered-text">Legend:</p>
+        <div class="legend-container">
+          <div id="legend" class="project-notables">
           </div>
         </div>
       </div>
-      <!--/Project Highlight-->
-      <!--Engines-->
-      <div id="engines" class="content-area">
-        <p class="centered-text content-area-title">Projects</p>
-        <span class="tagline centered-text">Select an engine to filter results</span>
-        <div class="engine-selection">
-          <div class="engine-list">
-            <img src="images/logos/Unity Logo.png" class="primary-logo js-clickable-logo" data-engine-type="Unity">
-          </div>
-          <div class="engine-list">
-            <img src="images/logos/Unreal Logo.png" class="secondary-logo js-clickable-logo" data-engine-type="Unreal"> 
-            <img src="images/logos/Godot Logo.png" class="secondary-logo js-clickable-logo" data-engine-type="Godot">
-          </div>
-        </div>
-        <p id="engine-name" class="centered-text">All</p>
-        <p id="engine-description" class="centered-text">Displaying all projects</p>
-        <!--Projects-->
-        <div id="primary-project-grid" class="project-grid" style="display: none;">
-        </div>
-        <!--/Projects-->
-      </div>
-      <!--/Engines-->
-      <!--Contact-->
-      <div id="contact" class="content-area">
-        <p class="centered-text content-area-title">Contact</p>
-        <p class="contact-info">You can contact me through my email: hoodiebashoo@gmail.com, linkedin (same as email but for linkedin), or discord (same as the others but discord)</p>
-        </p>
-      </div>
-      <!--/Contact-->
     </div>
 
-    <div id="js-project-view" class="project-view content-area" style="display: none;">
-      <p id="js-project-view-title" class="centered-text content-area-title"></p>
-      <span id="js-project-view-tagline" class="tagline centered-text"></span>
-      <div style="display: flex; flex-direction: column;">
-        <div class="project-view-section-buttons">
-          <button class="js-pv-section-button pv-section-button" data-section-type="Screenshots">Screenshots</button>
-          <button class="js-pv-section-button pv-section-button" data-section-type="Description">Description</button>
-          <button class="js-pv-section-button pv-section-button" data-section-type="Info">Info</button>
+    <!--Project Highlight-->
+    <div class="content-area">
+      <p class="centered-text content-area-title">Project Highlight</p>
+      <div class="project-highlight-area">
+        <div id="js-project-highlight" class="project-highlight-container">
+
         </div>
-        <div class="info-holder">
-          <div class="verbose-info">
-            <div id="js-project-view-screenshot-area" class="screenshot-area">
-              <div class="button-wrapper" style="left: 20px;">
-                <button class="screenshot-nav-button js-screenshot-nav-button" style="transform: scaleX(-1);" data-direction="Left"></button>
-              </div>
-              <div class="button-wrapper" style="right: 20px;">
-                <button class="screenshot-nav-button js-screenshot-nav-button" data-direction="Right"></button>
-              </div>
-              <div id="js-project-view-screenshots" class="screenshots-container">
-              </div>
+      </div>
+    </div>
+    <!--/Project Highlight-->
+    <!--Engines-->
+    <div id="engines" class="content-area">
+      <p class="centered-text content-area-title">Projects</p>
+      <span class="tagline centered-text">Select an engine to filter results</span>
+      <div class="engine-selection">
+        <div class="engine-list">
+          <img src="images/logos/Unity Logo.png" class="primary-logo js-clickable-logo" data-engine-type="Unity">
+        </div>
+        <div class="engine-list">
+          <img src="images/logos/Unreal Logo.png" class="secondary-logo js-clickable-logo" data-engine-type="Unreal">
+          <img src="images/logos/Godot Logo.png" class="secondary-logo js-clickable-logo" data-engine-type="Godot">
+        </div>
+      </div>
+      <p id="engine-name" class="centered-text">All</p>
+      <p id="engine-description" class="centered-text">Displaying all projects</p>
+      <!--Projects-->
+      <div id="primary-project-grid" class="project-grid" style="display: none;">
+      </div>
+      <!--/Projects-->
+    </div>
+    <!--/Engines-->
+    <!--Contact-->
+    <div id="contact" class="content-area">
+      <p class="centered-text content-area-title">Contact</p>
+      <p class="contact-info">Feel free to contact me through any means</p>
+        <div class="contact-link-container">
+          <a href="mailto:hoodiebashoo@gmail.com" target="_blank" class="email-container">
+            <img src="images/logos/Gmail Logo.png" class="inline-logo-title">
+            <span>HoodieBashoo@gmail.com</span>
+          </a>
+          <a href="https://www.linkedin.com/in/tylerbaldwindev/" target="_blank" class="linkedin-container">
+            <img src="images/logos/Linkedin Logo.png" class="inline-logo-title">
+            <span>tylerbaldwindev</span>
+          </a>
+        </div>
+      </p>
+    </div>
+    <!--/Contact-->
+  </div>
+
+  <div id="js-project-view" class="project-view content-area" style="display: none;">
+    <p id="js-project-view-title" class="centered-text content-area-title"></p>
+    <span id="js-project-view-tagline" class="tagline centered-text"></span>
+    <div style="display: flex; flex-direction: column;">
+      <div class="project-view-section-buttons">
+        <button class="js-pv-section-button pv-section-button" data-section-type="Screenshots">Screenshots</button>
+        <button class="js-pv-section-button pv-section-button" data-section-type="Description">Description</button>
+        <button class="js-pv-section-button pv-section-button" data-section-type="Info">Info</button>
+      </div>
+      <div class="info-holder">
+        <div class="verbose-info">
+          <div id="js-project-view-screenshot-area" class="screenshot-area">
+            <div class="button-wrapper" style="left: 20px;">
+              <button class="screenshot-nav-button js-screenshot-nav-button" style="transform: scaleX(-1);"
+                data-direction="Left"></button>
             </div>
-            <p id="js-project-view-description" class="project-description"></p>
+            <div class="button-wrapper" style="right: 20px;">
+              <button class="screenshot-nav-button js-screenshot-nav-button" data-direction="Right"></button>
+            </div>
+            <div id="js-project-view-screenshots" class="screenshots-container">
+            </div>
           </div>
-          <div id="js-project-view-info" class="specific-info">
-            <div id="js-project-view-notables" class="notables">
-            </div>
-            <div class="extra-info-container">
-              <span id="js-project-view-jam" class="jam-info"></span>
-              <div id="js-extra-info-divider" class="info-divider" style="display: none;"></div>
-              <div class="time-link-container">
-                <span id="js-project-view-timespan"></span>
-                <a id="js-game-link" href="https://hoodiebashoo.itch.io/pesticide" target="_blank" class="game-link">
-                  <img id="js-game-link-image" src="images/logos/Game Jolt Logo.png">
-                </a>
-              </div>
+          <p id="js-project-view-description" class="project-description"></p>
+        </div>
+        <div id="js-project-view-info" class="specific-info">
+          <div id="js-project-view-notables" class="notables">
+          </div>
+          <div class="extra-info-container">
+            <span id="js-project-view-jam" class="jam-info"></span>
+            <div id="js-extra-info-divider" class="info-divider" style="display: none;"></div>
+            <div class="time-link-container">
+              <span id="js-project-view-timespan"></span>
+              <a id="js-game-link" href="https://hoodiebashoo.itch.io/pesticide" target="_blank" class="game-link">
+                <img id="js-game-link-image" src="images/logos/Game Jolt Logo.png">
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <button id="js-close-project-view" class="close-project-view">Close</button>
     </div>
+    <button id="js-close-project-view" class="close-project-view">Close</button>
+  </div>
 
-    <img src="images/Sneaky.png" class="sneaky">;
+  <img src="images/Sneaky.png" class="sneaky">;
 
-    <script type="module" src="scripts/general.js"></script>
-    <script type="module" src="scripts/navbar.js"></script>
-    <script type="module" src="scripts/project-highlight.js"></script>
-    <script type="module" src="scripts/engines.js"></script>
-    <script type="module" src="scripts/project-view.js"></script>
-  </body>
+  <script type="module" src="scripts/general.js"></script>
+  <script type="module" src="scripts/navbar.js"></script>
+  <script type="module" src="scripts/project-highlight.js"></script>
+  <script type="module" src="scripts/engines.js"></script>
+  <script type="module" src="scripts/project-view.js"></script>
+</body>
+
 </html>

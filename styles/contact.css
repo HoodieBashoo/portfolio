@@ -7,6 +7,63 @@
   text-align: center;
 }
 
+#contact a:link {
+    text-decoration: none;
+}
+
+#contact a:visited {
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: none;
+}
+
+#contact a:active {
+    text-decoration: none;
+}
+
+.contact-link-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.email-container, .linkedin-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+  border-radius: 10px 18px;
+}
+
+.email-container {
+  background-color: rgba(232, 255, 224, 0.65);
+  border: 2px solid rgb(234, 72, 35)
+}
+.email-container:active {
+  background-color: rgba(241, 241, 241, 1);
+}
+
+.linkedin-container {
+  background-color: rgba(232, 255, 224, 0.65);
+  border: 2px solid rgb(45, 100, 151)
+}
+.linkedin-container:active {
+  background-color: rgba(232, 255, 224, 1);
+}
+
+@media (min-width: 1025px) {
+  .email-container:hover {
+    background-color: rgba(232, 255, 224, 1);
+  }
+
+  .linkedin-container:hover {
+    background-color: rgba(232, 255, 224, 1);
+  }
+}
+
 @media (max-width: 725px) { 
   #contact {
     scroll-margin-bottom: 20px;
