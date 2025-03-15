@@ -8,7 +8,7 @@ const legendNotables = [
     type: 'engineSpecific'
   },
   {
-    text: 'Feature',
+    text: 'Generic Feature',
     type: 'concept'
   },
   {

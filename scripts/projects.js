@@ -233,6 +233,10 @@ export const projects = [
         type: 'concept'
       },
       {
+        text: 'Status Effects',
+        type: 'concept'
+      },
+      {
         text: 'Typing-based Navigation',
         type: 'custom'
       },
@@ -314,6 +318,10 @@ export const projects = [
     link: 'https://turtleholder.itch.io/tickle-monster',
     linkImage: 'images/logos/Itch Logo.png',
     notables: [
+      {
+        text: 'Tickling...',
+        type: 'custom'
+      },
     ],
     extraNotables: [
     ]
