@@ -13,17 +13,18 @@
   height: 3.125rem;
   border: none;
   background-color: #082923;
+  background-color: rgb(24, 37, 23);
   color: #dbffb1;
 }
 
 .close-project-view:active {
-  background-color: #0C3D35;
+  background-color: rgb(42, 66, 41);
 }
 
 @media (min-width: 1025px) {
   .close-project-view:hover {
     cursor: pointer;
-    background-color: #0C3D35;
+    background-color: rgb(42, 66, 41);
   }
   }
 
@@ -68,7 +69,7 @@
   padding: 0;
   border-radius: 35%;
   background-color: rgba(var(--primary-section-color), 0.9);
-  background-image: url("../images/page-style/Leaf Button.png");
+  background-image: url("../images/page-style/Leaf Button Green.png");
   background-size: cover;
   color: white;
   transition-duration: var(--hover-transition-duration);
