@@ -22,9 +22,14 @@
   height: 50px;
   margin: 0px;
 }
-.nav-button:hover {
-  cursor: pointer;
+.nav-button:active {
   background-color: rgba(127, 145, 98, 0.8);
+}
+@media (min-width: 1025px) {
+  .nav-button:hover {
+    cursor: pointer;
+    background-color: rgba(127, 145, 98, 0.8);
+  }
 }
 
 .hamburger-button {

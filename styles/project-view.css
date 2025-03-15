@@ -16,10 +16,16 @@
   color: #dbffb1;
 }
 
-.close-project-view:hover {
-  cursor: pointer;
+.close-project-view:active {
   background-color: #0C3D35;
 }
+
+@media (min-width: 1025px) {
+  .close-project-view:hover {
+    cursor: pointer;
+    background-color: #0C3D35;
+  }
+  }
 
 .tagline {
   margin-top: -0.3125rem;
@@ -71,9 +77,15 @@
   transition-duration: var(--hover-transition-duration);
 }
 
-.screenshot-nav-button:hover {
-  cursor: pointer;
+.screenshot-nav-button:active {
   scale: 1.1;
+}
+
+@media (min-width: 1025px) {
+  .screenshot-nav-button:hover {
+    cursor: pointer;
+    scale: 1.1;
+  }
 }
 
 .screenshots-container {
@@ -162,8 +174,14 @@
   transition: var(--hover-transition-duration);
 }
 
-.game-link img:hover {
-  transform: scale(1.1);
+.game-link img:active {
+  scale: 1.1;
+}
+
+@media (min-width: 1025px) {
+  .game-link img:hover {
+    scale: 1.1;
+  }
 }
 
 .project-view-section-buttons {

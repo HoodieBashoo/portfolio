@@ -19,12 +19,18 @@
   transition-duration: var(--hover-transition-duration);
 }
 
-.project *:hover {
-  cursor: pointer;
+.project:active {
+  scale: 1.05;
 }
 
-.project:hover {
-  scale: 1.05;
+@media (min-width: 1025px) {
+  .project *:hover {
+    cursor: pointer;
+  }
+  
+  .project:hover {
+    scale: 1.05;
+  }
 }
 
 .project p {

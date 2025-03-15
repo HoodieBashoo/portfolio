@@ -11,10 +11,15 @@
   gap: min(10vw, 100px);
 }
 
-.primary-logo:hover, .secondary-logo:hover {
-  cursor: pointer;
+.primary-logo:active, .secondary-logo:active {
   scale: 1.1;
-  border-radius: 25%;
+}
+
+@media (min-width: 1025px) {
+  .primary-logo:hover, .secondary-logo:hover {
+    cursor: pointer;
+    scale: 1.1;
+  }
 }
 
 .primary-logo, .secondary-logo {
