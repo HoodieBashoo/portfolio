@@ -112,7 +112,10 @@
 
 .full-view-thumbnail {
   display: inline-block;
-  width: 25rem;
+  height: 15.625rem;
+  aspect-ratio: 8/5;
+  object-fit: cover;
+  object-position: center;
   border-radius: 20px;
   margin: 20px 20px 10px;
 }

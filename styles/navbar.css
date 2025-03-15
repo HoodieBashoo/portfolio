@@ -38,11 +38,22 @@
   top: 15px;
   right: 15px;
   display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
   width: 4rem;
   height: 4rem;
 }
 .hamburger-button:active {
   background-color: rgba(127, 145, 98, 0.8);
+}
+
+.hamburger-button span {
+  width: 90%;
+  height: 3px;
+  border-radius: 100px;
+  background-color: rgb(24, 37, 23);
 }
 
 .hamburger-menu {
@@ -75,7 +86,7 @@
   }
 
   .hamburger-button {
-    display: initial;
+    display: flex;
   }
 
   .hamburger-menu {

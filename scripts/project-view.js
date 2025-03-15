@@ -47,8 +47,8 @@ function alterProjectViewHTML(projectData) {
   document.getElementById('js-game-link-image').setAttribute('src', projectData.linkImage);
 
   const screenshotsContainer = document.getElementById('js-project-view-screenshots');
-  let currentId = 1;
-  screenshotsContainer.appendChild(generateScreenshotHTML(currentId, projectData.thumbnail));
+  let currentId = 0;
+  //screenshotsContainer.appendChild(generateScreenshotHTML(currentId, projectData.thumbnail));
   projectData.screenshots.forEach(screenshot => {
     currentId++;
     screenshotsContainer.appendChild(generateScreenshotHTML(currentId, screenshot));
@@ -106,8 +106,8 @@ function updateScreenshotIndex(direction) {
       break;
     case 'Right':
       screenshotIndex++;
-      if (screenshotIndex > screenshotCount) {
-        screenshotIndex = screenshotCount;
+      if (screenshotIndex > screenshotCount - 1) {
+        screenshotIndex = screenshotCount - 1;
       }
       break;
   }
