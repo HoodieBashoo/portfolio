@@ -20,7 +20,7 @@ export function displayProjects(engineType) {
       return;
     }
 
-    const project = generateProjectHTML(projectData);
+    const project = generateProjectHTML(projectData, engineType);
     projectGrid.appendChild(project);
     projectsDisplayed++;
   });
@@ -33,7 +33,7 @@ export function displayProjects(engineType) {
 }
 displayProjects('');
 
-export function generateProjectHTML(projectData) {
+export function generateProjectHTML(projectData, engineType) {
   const project = document.createElement('div');
   project.setAttribute('class', 'project');
   project.addEventListener('click', () => {
@@ -52,6 +52,17 @@ export function generateProjectHTML(projectData) {
   thumbnail.setAttribute('src', projectData.thumbnail);
   thumbnail.setAttribute('class', 'project-thumbnail');
   thumbnailContainer.appendChild(thumbnail);
+
+  if (engineType === '') {
+    const identifierContainer = document.createElement('div');
+    identifierContainer.setAttribute('class', 'identifier-container');
+    thumbnailContainer.appendChild(identifierContainer);
+
+    const engineIdentifier = document.createElement('img');
+    engineIdentifier.setAttribute('src', getEngineImage(projectData.engineType));
+    engineIdentifier.setAttribute('class', 'engine-identifier');
+    identifierContainer.appendChild(engineIdentifier);
+  }
 
   const title = document.createElement('span');
   title.textContent = projectData.title;
@@ -92,4 +103,15 @@ export function generateNotableHTML(notableData) {
   notable.appendChild(notableName);
 
   return notable;
+}
+
+function getEngineImage(engine) {
+  switch(engine) {
+    case 'Unity':
+      return 'images/logos/Unity Logo.png';
+    case 'Unreal':
+      return 'images/logos/Unreal Logo.png';
+    case 'Godot':
+      return 'images/logos/Godot Logo.png';
+  }
 }
