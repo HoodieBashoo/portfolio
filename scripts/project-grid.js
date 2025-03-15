@@ -25,6 +25,10 @@ export function displayProjects(engineType) {
     projectsDisplayed++;
   });
 
+  if (projectsDisplayed == 0) {
+    projectGrid.style.display = 'none';
+  } 
+
   return projectsDisplayed;
 }
 displayProjects('');
