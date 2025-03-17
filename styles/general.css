@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Inclusive Sans";
+  src: url("../fonts/InclusiveSans-VariableFont_wght.ttf");
+}
+
 html {
   font-size: 12px;
   text-size-adjust: none;
