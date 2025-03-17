@@ -150,6 +150,7 @@
 }
 
 .jam-info {
+  display: none;
   margin: 0.625rem;
 }
 
@@ -229,6 +230,10 @@
 
   .pv-section-button, .pv-section-button-selected {
     display: inline;
+  }
+
+  .screenshot-area {
+    display: none;
   }
 
   .project-description {

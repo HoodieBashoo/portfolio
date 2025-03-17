@@ -3,6 +3,7 @@ import {generateNotableHTML} from "./project-grid.js";
 let screenshotCount = 0;
 let screenshotIndex = 1;
 
+const defaultMobileSection = 'Screenshots';
 export let isProjectOpen = false;
 
 export function openProjectView(projectData) {
@@ -11,8 +12,12 @@ export function openProjectView(projectData) {
 
   alterProjectViewHTML(projectData);
 
+  enableSection(defaultMobileSection);
+
   document.getElementById('js-project-view').style.display = '';
   scrollToScreenshot(screenshotIndex);
+  // TODO: Screenshots don't scroll to center when you select the tab unless it's the defaultMobileSection.
+  // This doesn't matter right now but if I ever want it to be a different section then I gotta fix it
 
   isProjectOpen = true;
 }
@@ -35,7 +40,7 @@ function alterProjectViewHTML(projectData) {
   document.getElementById('js-project-view-tagline').innerText = projectData.tagline;
   document.getElementById('js-project-view-description').innerText = projectData.description;
   if (projectData.jam !== '') {
-    document.getElementById('js-project-view-jam').style.display = '';
+    document.getElementById('js-project-view-jam').style.display = 'initial';
     document.getElementById('js-project-view-jam').innerText = projectData.jam;
     document.getElementById('js-extra-info-divider').style.display = '';
   }
@@ -111,7 +116,6 @@ function updateScreenshotIndex(direction) {
       }
       break;
   }
-  console.log('screenshotIndex is ' + screenshotIndex + 'screenshot count is ' + screenshotCount);
 }
 
 function scrollToScreenshot(index) {
@@ -142,6 +146,8 @@ function enableSection(sectionType) {
       info.style.display = 'flex';
       break;
   }
+
+  updateButtonVisuals(sectionType);
 }
 
 function updateButtonVisuals(sectionType) {
@@ -158,13 +164,11 @@ function updateButtonVisuals(sectionType) {
     }
   });
 }
-updateButtonVisuals('Screenshots');
 
 const widthQuery = window.matchMedia('(max-width: 800px)');
 widthQuery.addEventListener('change', query => {
   if (query.matches) {
-    enableSection('Screenshots');
-    updateButtonVisuals('Screenshots');
+    enableSection(defaultMobileSection);
   }
   else {
     enableSection('All');
@@ -175,7 +179,6 @@ document.querySelectorAll('.js-pv-section-button').forEach(button => {
   button.addEventListener('click', () => {
     const sectionType = button.dataset.sectionType;
     enableSection(sectionType);
-    updateButtonVisuals(sectionType);
   })
 });
 
