@@ -10,10 +10,10 @@ html {
 
 body {
   background: rgb(41, 118, 74);
-  /*background: moz-radial-gradient(circle, rgb(166, 194, 107) 15%, rgb(41, 118, 74) 50%, rgb(1, 8, 18) 100%);
-  background: webkit-radial-gradient(circle, rgb(166, 194, 107) 15%, rgb(41, 118, 74) 50%, rgb(1, 8, 18) 100%);
+  background: -moz-radial-gradient(circle, rgb(166, 194, 107) 15%, rgb(41, 118, 74) 50%, rgb(1, 8, 18) 100%);
+  background: -webkit-radial-gradient(circle, rgb(166, 194, 107) 15%, rgb(41, 118, 74) 50%, rgb(1, 8, 18) 100%);
   background: radial-gradient(circle, rgb(166, 194, 107) 15%, rgb(41, 118, 74) 50%, rgb(1, 8, 18) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b7d575",endColorstr="#010812",GradientType=1);*/
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b7d575",endColorstr="#010812",GradientType=1);
   padding-bottom: 50px;
   position: relative;
 }
