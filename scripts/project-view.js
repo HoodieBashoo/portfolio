@@ -6,13 +6,17 @@ let screenshotIndex = 1;
 const defaultMobileSection = 'Screenshots';
 export let isProjectOpen = false;
 
+const widthQuery = window.matchMedia('(max-width: 800px)');
+
 export function openProjectView(projectData) {
   screenshotCount = projectData.screenshots.length + 1;
   screenshotIndex = 1;
 
   alterProjectViewHTML(projectData);
 
-  enableSection(defaultMobileSection);
+  if (widthQuery.matches) {
+    enableSection(defaultMobileSection);
+  }
 
   document.getElementById('js-project-view').style.display = '';
   scrollToScreenshot(screenshotIndex);
@@ -165,7 +169,6 @@ function updateButtonVisuals(sectionType) {
   });
 }
 
-const widthQuery = window.matchMedia('(max-width: 800px)');
 widthQuery.addEventListener('change', query => {
   if (query.matches) {
     enableSection(defaultMobileSection);
