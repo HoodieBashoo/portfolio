@@ -31,7 +31,10 @@ p {
 .leaf-underlay {
   position: fixed;
   z-index: -2;
-  inset: 0px;
+  top: 0px;
+  bottom: 1px;
+  left: 0px;
+  right: 0px;
   background-image: url("../images/page-style/Leaf Background.png");
   opacity: 0.1;
 }
