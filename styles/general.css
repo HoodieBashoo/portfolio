@@ -31,12 +31,15 @@ p {
 .leaf-underlay {
   position: fixed;
   z-index: -2;
-  top: 0px;
-  bottom: 0px;
-  left: 50%;
-  right: 0px;
-  background-color: red;
+  inset: 0px;
   background-image: url("../images/page-style/Leaf Background.png");
+  opacity: 0.1;
+}
+
+@media (max-width: 1025px) {
+  .leaf-underlay {
+    display: none;
+  }
 }
 
 .main-content {
