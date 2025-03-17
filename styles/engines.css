@@ -40,11 +40,11 @@
   max-height: 15vw;
 }
 
-#engine-name {
+.engine-name {
   font-size: var(--category-size);
   font-weight: 700;
 }
 
-#engine-description {
+.engine-description {
   scroll-margin-bottom: 300px;
 }

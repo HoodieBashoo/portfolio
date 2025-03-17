@@ -11,7 +11,7 @@
   padding: 0.5rem 0rem 0.9375rem;
 }
 
-#crucial-info .project-notables {
+.crucial-info .project-notables {
   justify-content: center;
   width: 50%;
   margin-top: 0;

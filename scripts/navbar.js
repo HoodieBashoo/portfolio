@@ -1,18 +1,18 @@
-document.querySelector('.hamburger-button').addEventListener('click', () => {
-  document.querySelector('.hamburger-menu').classList.toggle('active');
+document.getElementById('js-hamburger-button').addEventListener('click', () => {
+  document.getElementById('js-hamburger-menu').classList.toggle('active');
 })
 
 document.querySelectorAll('.js-nav-button').forEach(button => {
   button.addEventListener('click', () => {
     switch(button.dataset.area) {
       case "Overview":
-        document.getElementById('top-of-page').scrollIntoView({
+        document.getElementById('js-top-of-page').scrollIntoView({
           behavior: 'smooth',
           block: 'end'
         });
         break;
       case "Engines":
-        document.getElementById('engines').scrollIntoView({
+        document.getElementById('js-engines').scrollIntoView({
           behavior: 'smooth',
           block: 'start'
         });
@@ -20,14 +20,14 @@ document.querySelectorAll('.js-nav-button').forEach(button => {
       case "Resume":
         break;
       case "Contact":
-        document.getElementById('contact').scrollIntoView({
+        document.getElementById('js-contact').scrollIntoView({
           behavior: 'smooth',
           block: 'end'
         });
         break;
     }
 
-    document.querySelector('.hamburger-menu').classList.toggle('active');
+    document.getElementById('js-hamburger-menu').classList.toggle('active');
   })
 })
 

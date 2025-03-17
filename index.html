@@ -44,12 +44,12 @@
     </div>
   </div>
 
-  <button class="hamburger-button">
+  <button id="js-hamburger-button" class="hamburger-button">
     <span></span>
     <span></span>
     <span></span>
   </button>
-  <div class="hamburger-menu">
+  <div id="js-hamburger-menu" class="hamburger-menu">
     <button class="mobile-nav-button js-nav-button" data-area="Overview">Overview</button>
     <button class="mobile-nav-button js-nav-button" data-area="Engines">Projects</button>
     <button class="mobile-nav-button js-nav-button" data-area="Resume">Resumé</button>
@@ -57,11 +57,11 @@
   </div>
 
   <!-- Anchor point for overview button -->
-  <div id="top-of-page"></div>
+  <div id="js-top-of-page"></div>
 
   <div class="main-content">
     <!--Overview-->
-    <div id="overview" class="content-area">
+    <div class="content-area">
       <p class="centered-text content-area-title">Overview</p>
       <div class="personal-blurb">
         <div class="blurb-text">
@@ -199,7 +199,7 @@
     </div>
     <!--/Overview-->
 
-    <div id="crucial-info" class="content-area">
+    <div class="crucial-info content-area">
       <p class="centered-text content-area-title crucial-info-title">
         <img src="images/Warning.png" class="inline-logo-title">
         &nbsp;Select any project for more info&nbsp;
@@ -208,7 +208,7 @@
       <div class="tag-info">
         <p class="legend-title centered-text">Legend:</p>
         <div class="legend-container">
-          <div id="legend" class="project-notables">
+          <div id="js-legend" class="project-notables">
           </div>
         </div>
       </div>
@@ -225,7 +225,7 @@
     </div>
     <!--/Project Highlight-->
     <!--Engines-->
-    <div id="engines" class="content-area">
+    <div id="js-engines" class="content-area">
       <p class="centered-text content-area-title">Projects</p>
       <span class="tagline centered-text">Select an engine to filter results</span>
       <div class="engine-selection">
@@ -237,16 +237,16 @@
           <img src="images/logos/Godot Logo.png" class="secondary-logo js-clickable-logo" data-engine-type="Godot">
         </div>
       </div>
-      <p id="engine-name" class="centered-text">All</p>
-      <p id="engine-description" class="centered-text">Displaying all projects</p>
+      <p id="js-engine-name" class="engine-name centered-text">All</p>
+      <p id="js-engine-description" class="engine-description centered-text">Displaying all projects</p>
       <!--Projects-->
-      <div id="primary-project-grid" class="project-grid" style="display: none;">
+      <div id="js-project-grid" class="project-grid" style="display: none;">
       </div>
       <!--/Projects-->
     </div>
     <!--/Engines-->
     <!--Contact-->
-    <div id="contact" class="content-area">
+    <div id="js-contact" class="contact content-area">
       <p class="centered-text content-area-title">Contact</p>
       <p class="contact-info">Feel free to contact me through any means. Here are some easy ones:</p>
         <div class="contact-link-container">
@@ -265,7 +265,7 @@
   </div>
 
   <div id="js-project-view" class="project-view content-area" style="display: none;">
-    <p id="js-project-view-title" class="centered-text content-area-title"></p>
+    <p id="js-project-view-title" class="project-view-title centered-text content-area-title"></p>
     <span id="js-project-view-tagline" class="tagline centered-text"></span>
     <div style="display: flex; flex-direction: column;">
       <div class="project-view-section-buttons">

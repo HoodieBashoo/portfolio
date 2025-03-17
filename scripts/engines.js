@@ -12,13 +12,13 @@ document.querySelectorAll('.js-clickable-logo').forEach(logo => {
     }
 
     if (projectsDisplayed > 3) {
-      document.getElementById('engine-description').scrollIntoView({
+      document.getElementById('js-engine-description').scrollIntoView({
         behavior: 'smooth',
         block: 'center'
       });
     }
     else {
-      document.getElementById('engines').scrollIntoView({
+      document.getElementById('js-engines').scrollIntoView({
         behavior: 'smooth',
         block: 'start'
       });
@@ -28,7 +28,7 @@ document.querySelectorAll('.js-clickable-logo').forEach(logo => {
 
 let currentEngineType = '';
 function updateCurrentEngine(engineType) {
-  const engineNameContainer = document.getElementById('engine-name');
+  const engineNameContainer = document.getElementById('js-engine-name');
 
   if (currentEngineType === engineType) {
     changeEngineDescription('');
@@ -45,7 +45,7 @@ function updateCurrentEngine(engineType) {
 }
 
 function changeEngineDescription(engineType) {
-  const engineDescription = document.getElementById('engine-description');
+  const engineDescription = document.getElementById('js-engine-description');
 
   let chosenDescription = '';
   switch(engineType) {

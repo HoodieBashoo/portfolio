@@ -1,4 +1,4 @@
-#contact {
+.contact {
   margin-bottom: 32rem;
   scroll-margin-bottom: 50px;
 }
@@ -7,19 +7,19 @@
   text-align: center;
 }
 
-#contact a:link {
+.contact a:link {
     text-decoration: none;
 }
 
-#contact a:visited {
+.contact a:visited {
     text-decoration: none;
 }
 
-#contact a:hover {
+.contact a:hover {
     text-decoration: none;
 }
 
-#contact a:active {
+.contact a:active {
     text-decoration: none;
 }
 
@@ -65,7 +65,7 @@
 }
 
 @media (max-width: 725px) { 
-  #contact {
+  .contact {
     scroll-margin-bottom: 20px;
   }
 }

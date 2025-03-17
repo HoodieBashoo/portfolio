@@ -2,7 +2,7 @@ import {projects, getNotableColours} from './projects.js'
 import {openProjectView, closeProjectView, isProjectOpen} from './project-view.js';
 
 export function clearProjects() {
-  const projectGrid = document.getElementById('primary-project-grid');
+  const projectGrid = document.getElementById('js-project-grid');
   projectGrid.textContent = '';
   projectGrid.style.display = 'none';
 
@@ -11,7 +11,7 @@ export function clearProjects() {
 
 export function displayProjects(engineType) {
   clearProjects();
-  const projectGrid = document.getElementById('primary-project-grid');
+  const projectGrid = document.getElementById('js-project-grid');
   projectGrid.style.display = 'grid';
 
   let projectsDisplayed = 0;

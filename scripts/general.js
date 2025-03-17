@@ -1,6 +1,6 @@
 import { generateNotableHTML } from "./project-grid.js";
 
-const legend = document.getElementById('legend');
+const legend = document.getElementById('js-legend');
 
 const legendNotables = [
   {
