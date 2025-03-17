@@ -31,12 +31,9 @@ p {
 .leaf-underlay {
   position: fixed;
   z-index: -2;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+  inset: 0px;
+  background-color: red;
   background-image: url("../images/page-style/Leaf Background.png");
-  filter: opacity(0.1);
 }
 
 .main-content {
