@@ -36,11 +36,11 @@ p {
   opacity: 0.1;
 }
 
-@media (max-width: 1025px) {
+/*@media (max-width: 1025px) {
   .leaf-underlay {
     display: none;
   }
-}
+}*/
 
 .main-content {
   margin-top: 80px;
