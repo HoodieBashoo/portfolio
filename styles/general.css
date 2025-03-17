@@ -32,8 +32,9 @@ p {
   position: fixed;
   z-index: -2;
   inset: 0px;
-  background-color: red;
+  background-color: rgba(0, 0, 0, 0);
   background-image: url("../images/page-style/Leaf Background.png");
+  opacity: 0.1;
 }
 
 .main-content {
