@@ -113,7 +113,7 @@
 
 .full-view-thumbnail {
   display: inline-block;
-  height: 15.625rem;
+  height: 20rem;
   aspect-ratio: 8/5;
   object-fit: cover;
   object-position: center;
