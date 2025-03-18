@@ -6,12 +6,6 @@
   left: 50%;
   transform: translate(-50%, -0%);
   backdrop-filter: blur(var(--secondary-translucence));
-  /* Band-aid for laptop display scaling*/
-  max-height: 655px;
-  overflow-y: scroll;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  scroll-behavior: smooth;
 }
 
 .close-project-view {
@@ -28,11 +22,20 @@
 }
 
 @media (min-width: 1025px) {
+  .project-view {
+    /* Band-aid for laptop display scaling*/
+    max-height: 655px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+  }
+
   .close-project-view:hover {
     cursor: pointer;
     background-color: rgb(42, 66, 41);
   }
-  }
+}
 
 .tagline {
   margin-top: -0.3125rem;
