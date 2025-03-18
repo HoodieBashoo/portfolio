@@ -4,7 +4,7 @@
 }
 
 html {
-  font-size: 12px;
+  font-size: 10px;
   text-size-adjust: none;
 }
 
@@ -72,8 +72,8 @@ p {
 }
 
 .content-area-title {
-  font-weight: 700;
   font-size: var(--header-size);
+  font-weight: 700;
   margin: 0.3125rem;
 }
 
