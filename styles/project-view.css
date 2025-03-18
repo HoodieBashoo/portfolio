@@ -6,6 +6,12 @@
   left: 50%;
   transform: translate(-50%, -0%);
   backdrop-filter: blur(var(--secondary-translucence));
+  /* Band-aid for laptop display scaling*/
+  max-height: 655px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
 }
 
 .close-project-view {
