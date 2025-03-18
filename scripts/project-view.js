@@ -6,7 +6,7 @@ let screenshotIndex = 1;
 const defaultMobileSection = 'Screenshots';
 export let isProjectOpen = false;
 
-const widthQuery = window.matchMedia('(max-width: 800px)');
+const widthQuery = window.matchMedia('(max-width: 725px)');
 
 export function openProjectView(projectData) {
   screenshotCount = projectData.screenshots.length + 1;
