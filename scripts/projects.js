@@ -35,7 +35,7 @@ export const projects = [
       'images/thumbnails/SHADE Protocol/Advanced Enemies.png',
       'images/thumbnails/SHADE Protocol/Axe Crack.png',
     ],
-    description: `A cyber fantasy metroidvania where you can split the world, combo the living daylights out of enemies, and explore both stunning cityscapes and beautiful landscapes. I've had the pleasure of building a number of gameplay systems for this, from a buff system and hot-swappable abilities, to refining the backbone of enemy AI and implementing their behaviours.`,
+    description: `A cyber fantasy metroidvania where you can split the world, combo the living daylights out of enemies, and explore both stunning cityscapes and beautiful landscapes. I've had the pleasure of building a number of gameplay systems for this, from a buff system and hot-swappable abilities (protocols), to refining the backbone of enemy AI and implementing their behaviours.`,
     engineType: 'Godot',
     jam: '',
     timespan: 'On Team Since: Sep 2025',
