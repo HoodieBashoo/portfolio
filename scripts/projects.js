@@ -60,10 +60,6 @@ export const projects = [
         type: 'concept'
       },
       {
-        text: 'Shaders',
-        type: 'concept'
-      },
-      {
         text: 'Melee/Projectile Hit Tracking',
         type: 'custom'
       },
@@ -101,7 +97,7 @@ export const projects = [
         type: 'engineSpecific'
       },
       {
-        text: 'Shader Graph',
+        text: 'Shaders',
         type: 'engineSpecific'
       },
       {
@@ -189,7 +185,7 @@ export const projects = [
       },
       {
         text: 'Input Buffering',
-        type: 'concept'
+        type: 'custom'
       },
     ],
     extraNotables: [
