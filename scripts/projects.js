@@ -24,6 +24,58 @@ export function getProject(title) {
 
 export const projects = [
   {
+    title: 'SHADE Protocol',
+    tagline: 'Metroidvania',
+    thumbnail: 'images/thumbnails/SHADE Protocol Thumbnail.png',
+    screenshots: [
+      'images/thumbnails/SHADE Protocol/Boss.png',
+      'images/thumbnails/SHADE Protocol/Snowy.png',
+      'images/thumbnails/SHADE Protocol/Axe Crash.png',
+      'images/thumbnails/SHADE Protocol/Basic Enemies.png',
+      'images/thumbnails/SHADE Protocol/Advanced Enemies.png',
+      'images/thumbnails/SHADE Protocol/Axe Crack.png',
+    ],
+    description: `A cyber fantasy metroidvania where you can split the world, combo the living daylights out of enemies, and explore both stunning cityscapes and beautiful landscapes. I've had the pleasure of building a number of gameplay systems for this, from a buff system and hot-swappable abilities, to refining the backbone of enemy AI and implementing their behaviours.`,
+    engineType: 'Godot',
+    jam: '',
+    timespan: 'On Team Since: Sep 2025',
+    date: '',
+    link: 'https://store.steampowered.com/app/3581730/SHADE_Protocol/',
+    linkImage: 'images/logos/Steam Logo.png',
+    notables: [
+      {
+        text: 'Enemy AI (HSM, BT)',
+        type: 'concept'
+      },
+      {
+        text: 'Swappable Abilities',
+        type: 'concept'
+      },
+      {
+        text: 'Stats and Modifiers',
+        type: 'concept'
+      },
+      {
+        text: 'Buffs/Debuffs',
+        type: 'concept'
+      },
+      {
+        text: 'Shaders',
+        type: 'concept'
+      },
+      {
+        text: 'Melee/Projectile Hit Tracking',
+        type: 'custom'
+      },
+      {
+        text: 'Enemies as Allies',
+        type: 'custom'
+      },
+    ],
+    extraNotables: [
+    ]
+  },
+  {
     title: 'Sprouts!',
     tagline: 'Farming/Cooking Simulator',
     thumbnail: 'images/thumbnails/Sprouts Thumbnail.png',
