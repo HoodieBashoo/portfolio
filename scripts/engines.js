@@ -65,8 +65,8 @@ function changeEngineDescription(engineType) {
 }
 
 const engineDescriptions = {
-  unityDescription: 'My engine of choice.\nI have experience with most built-in systems and feel capable of creating anything I can imagine in it.',
+  unityDescription: 'My former engine of choice.\nI have experience with most built-in systems and feel capable of creating anything I need in it.',
   unrealDescription: 'Check back soon!\nI have plans of expanding into Unreal in a coming project.',
-  godotDescription: "For my lighter weight projects.\nAnd as it gets better? Maybe some larger ones.",
+  godotDescription: "The engine I have somehow found work in.",
   defaultDescription: 'Showing all projects'
 }
