@@ -153,6 +153,44 @@ export const projects = [
     ]
   },
   {
+    title: 'Beandejo',
+    tagline: 'Roguelike Shoot-Em-Up',
+    thumbnail: 'images/thumbnails/Beandejo Thumbnail.png',
+    screenshots: [
+      'images/thumbnails/Beandejo/Gunfight.png',
+      'images/thumbnails/Beandejo/Boss.png',
+      'images/thumbnails/Beandejo/Boss2.png',
+      'images/thumbnails/Beandejo/Slots.png',
+    ],
+    description: `A crazy shoot-em-up where you play as a drunk mexican jumping bean. Aiming will have your reticle spinning around you in circles until you find a target worthy of your bullet. Most of my work here was supportive, like adding parrying, creating bosses, and seeding runs.`,
+    engineType: 'Godot',
+    jam: '',
+    timespan: 'Joined: June 2025',
+    date: 'Left: Aug 2025',
+    link: 'https://store.steampowered.com/app/3207200/BEANDEJO/',
+    linkImage: 'images/logos/Steam Logo.png',
+    notables: [
+      {
+        text: 'Enemy AI (Finite SM)',
+        type: 'concept'
+      },
+      {
+        text: 'Seeded Runs',
+        type: 'concept'
+      },
+      {
+        text: 'Sprite Animation System',
+        type: 'concept'
+      },
+      {
+        text: 'Offscreen Indicators',
+        type: 'concept'
+      },
+    ],
+    extraNotables: [
+    ]
+  },
+  {
     title: 'Pesticide',
     tagline: 'Isaac-Like',
     thumbnail: 'images/thumbnails/Pesticide Thumbnail.png',
