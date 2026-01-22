@@ -391,7 +391,7 @@ export const projects = [
     extraNotables: [
     ]
   },
-  {
+  /*{
     title: 'Tickle Monster',
     tagline: 'First Person Tickler',
     thumbnail: 'images/thumbnails/Tickle Monster Thumbnail.png',
@@ -415,7 +415,7 @@ export const projects = [
     ],
     extraNotables: [
     ]
-  },
+  },*/
 ]
 
 export function getNotableColours(type) {
