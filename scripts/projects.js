@@ -44,7 +44,7 @@ export const projects = [
     linkImage: 'images/logos/Steam Logo.png',
     notables: [
       {
-        text: 'Enemy AI (HSM, BT)',
+        text: 'Enemy AI (Hierarchical SM, BT)',
         type: 'concept'
       },
       {
@@ -223,6 +223,10 @@ export const projects = [
       },
       {
         text: 'Input Buffering',
+        type: 'custom'
+      },
+      {
+        text: 'Rudimentary Enemy AI',
         type: 'custom'
       },
     ],
