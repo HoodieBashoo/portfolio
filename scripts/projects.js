@@ -136,10 +136,6 @@ export const projects = [
         type: 'concept'
       },
       {
-        text: 'Enemy AI',
-        type: 'concept'
-      },
-      {
         text: 'Input Buffering',
         type: 'concept'
       },
