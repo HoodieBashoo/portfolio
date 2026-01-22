@@ -186,7 +186,7 @@ export const projects = [
     engineType: 'Unity',
     jam: '',
     timespan: 'Time Taken: 2 Weeks',
-    date: 'Dropped: December 2021',
+    date: 'Dropped: Dec 2021',
     link: 'https://gamejolt.com/games/pickle-souls/842866',
     linkImage: 'images/logos/Game Jolt Logo.png',
     notables: [
@@ -220,7 +220,7 @@ export const projects = [
     engineType: 'Unity',
     jam: 'Global Game Jam 2025',
     timespan: 'Time Taken: 2 Days',
-    date: 'Submitted: January 2025',
+    date: 'Submitted: Jan 2025',
     link: 'https://hoodiebashoo.itch.io/ego-arena',
     linkImage: 'images/logos/Itch Logo.png',
     notables: [
@@ -257,7 +257,7 @@ export const projects = [
     engineType: 'Unity',
     jam: 'Alberta Game Jam 2023',
     timespan: 'Time Taken: 2 Days',
-    date: 'Submitted: August 2023',
+    date: 'Submitted: Aug 2023',
     link: 'https://hoodiebashoo.itch.io/hot-wired',
     linkImage: 'images/logos/Itch Logo.png',
     notables: [
@@ -314,7 +314,7 @@ export const projects = [
     engineType: 'Godot',
     jam: 'Global Game Jam 2024',
     timespan: 'Time Taken: 2 Days',
-    date: 'Submitted: January 2024',
+    date: 'Submitted: Jan 2024',
     link: 'https://turtleholder.itch.io/tickle-monster',
     linkImage: 'images/logos/Itch Logo.png',
     notables: [
