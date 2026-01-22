@@ -184,7 +184,7 @@ export const projects = [
       },
       {
         text: 'Offscreen Indicators',
-        type: 'concept'
+        type: 'custom'
       },
     ],
     extraNotables: [
