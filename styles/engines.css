@@ -8,7 +8,7 @@
 
 .engine-list {
   display: flex;
-  gap: min(10vw, 100px);
+  gap: 3vw;
 }
 
 .primary-logo:active, .secondary-logo:active {
