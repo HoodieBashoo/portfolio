@@ -35,12 +35,12 @@ export const projects = [
       'images/thumbnails/Sprouts/Minigame2.gif',
       'images/thumbnails/Sprouts/Minigame3.gif',
     ],
-    description: `Sprouts is my first full-scale project, and is planned to be about 7-10 hours. You cook food for the creatures growing in your garden, and in return they'll produce more ingredients for you.
+    description: `Sprouts was my first full-scale project, and was planned to be about 7-10 hours. You cook food for the creatures growing in your garden, and in return they'll produce more ingredients for you.
     My proudest accomplishment would have to be the link between the recipe system and the minigame system. The algorithm verifies each step of the process, and will consume ingredients as you progress through the minigames.`,
     engineType: 'Unity',
     jam: '',
-    timespan: 'In Progress: 1.5 Years',
-    date: '',
+    timespan: 'Time Taken: 1.5 Years',
+    date: 'Dropped: June 2025',
     link: 'https://hoodiebashoo.itch.io/sprouts',
     linkImage: 'images/logos/Itch Logo.png',
     notables: [
@@ -61,6 +61,10 @@ export const projects = [
         type: 'engineSpecific'
       },
       {
+        text: 'Save System',
+        type: 'concept'
+      },
+      {
         text: 'Minigames',
         type: 'concept'
       },
@@ -77,10 +81,6 @@ export const projects = [
         type: 'custom'
       },
       {
-        text: 'Minigame Queuing System',
-        type: 'custom'
-      },
-      {
         text: 'Dynamic Proximity-based Interaction',
         type: 'custom'
       },
@@ -93,6 +93,10 @@ export const projects = [
       {
         text: 'Rarity',
         type: 'concept'
+      },
+      {
+        text: 'Minigame Queuing System',
+        type: 'custom'
       },
       {
         text: 'Advanced Recipe Navigation',
